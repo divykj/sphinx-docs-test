@@ -23,8 +23,8 @@ jobs:
         run: |
           sphinx-build docs public -b dirhtml
       - name: Github Pages Deploy
-        uses: peaceiris/actions-gh-pages@v2.3.1
-        env:
-          PERSONAL_TOKEN: ${{ secrets.PAT }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: public
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PAT }}
+          publish_branch: gh-pages
+          publish_dir: public
