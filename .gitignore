@@ -1,6 +1,7 @@
 *.egg-info
 build/
 dist/
+public/
 
 .pytest_*
 .python-version
