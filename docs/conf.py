@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "sphinx_docs_test"
+project = "sphinx-docs-test"
 copyright = "2020, Divya Jain"
 author = "Divya Jain"
 
@@ -58,5 +58,3 @@ html_theme = "sphinx_rtd_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-
-# -- Extension configuration -------------------------------------------------
